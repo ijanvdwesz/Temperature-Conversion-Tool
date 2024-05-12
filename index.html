@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature calculator</title>
+    <!--This adds my Favicon(Thermometer next to title)-->
+    <link rel="icon" type="image/x-icon" href="Favicon.ico" />
+    <!--Links css to HTML-->
+    <link rel="stylesheet"
+    type="text/css" href="temperature.css">
+  </head>
+  <body>
+    
+    <div class="content-container">
+      <h1>Temperature Conversion</h1>
+    <h2>In which metric is the temperature you are converting?</h2>
+    <ul>
+      <li>C - Celsius</li>
+      <li>F - Fahrenheit</li>
+      <li>K - Kelvin</li>
+    </ul>
+    <input placeholder="Temperature metric input" class="temp-type-input temp-input" />
+<br>
+    <input placeholder="Temperature number input" class="temp-number-input temp-input" />
+
+    <h2>To which metric would you like to convert the temperature?</h2>
+    <ul>
+      <li>C - Celsius</li>
+      <li>F - Fahrenheit</li>
+      <li>K - Kelvin</li>
+    </ul>
+    
+    <input placeholder="Temperature metric output" class="temp-output temp-input" />
+    <button class="calculate-Temp-button">Calculate result</button>
+    <p class="Results"></p>
+    </div>
+    
+    <script src="temperature.js"></script>
+  </body>
+</html>
